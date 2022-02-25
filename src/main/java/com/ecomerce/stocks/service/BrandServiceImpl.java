@@ -19,7 +19,7 @@ public BrandServiceImpl implements  BrandService{
 
     @Override
     public String addBrand(Brand brand) {
-        String result = "Brand not added";
+        String result = "Brand not succesfuly added";
         try
         {
             BrandEntity brandEntity = BrandUtility.getBrandEntityFromBrand(brand);
